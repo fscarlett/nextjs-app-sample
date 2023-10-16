@@ -1,0 +1,34 @@
+.growth_zone_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 190px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+  padding: 15px 15px 5px;
+  margin-bottom: 10px;
+  border-radius: 9px;
+}
+
+h2.growth_zone_h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.growth_zone_text {
+  margin: 0;
+}
+
+.world_map_wrapper {
+  background-image: url(/images/map350.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  width: 100%;
+}

@@ -1,0 +1,174 @@
+.plan_card {
+  width: 24%;
+  min-height: 760px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 20px 24px 40px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+}
+
+.plan_card_discount {
+  width: 100%;
+  max-width: 400px;
+  margin: 30px auto;
+  border-radius: 5px;
+  padding: 20px 24px 40px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+}
+
+.plan_card_coming_soon {
+  opacity: 0.7;
+  width: 24%;
+  min-height: 760px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 20px 24px 40px;
+  background-image: linear-gradient(to top right, #222, #555);
+}
+
+.plan_card_downgrade {
+  width: 48%;
+  min-height: 370px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 20px 24px 40px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+}
+
+.plan_card h4,
+.plan_card_downgrade h4 {
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: -10px;
+}
+
+.plan_card p svg {
+  padding: 3px;
+  margin-right: 3px;
+}
+
+.plan_card_downgrade p svg {
+  padding: 3px;
+  margin-right: 3px;
+}
+
+.plan_price {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.plan_billperiod {
+  font-size: 18px;
+  margin-bottom: 33px;
+}
+
+.plan_price_free {
+  font-size: 22px;
+  margin-bottom: 72px;
+}
+
+.plan_feature {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.plan_addon_feature {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.plan_select_button_section {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.plan_select_button {
+  display: inline-block;
+  background-color: #2d8186;
+  padding: 12px 10px 12px;
+  color: #fdf4e7;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 300px;
+  text-decoration: none;
+}
+
+.plan_select_button_coming_soon {
+  display: inline-block;
+  background-color: #555;
+  padding: 12px 10px 12px;
+  color: #fdf4e7;
+  border-radius: 6px;
+  font-size: 17px;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 300px;
+  text-decoration: none;
+}
+
+.plan_select_button:hover {
+  background-color: #303f9f;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.plan_billperiod_small {
+  font-size: 18px;
+  margin: 0;
+}
+
+.plan_pricing_copy_wrapper {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1150px) {
+  .plan_price_free {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .plan_card,
+  .plan_card_downgrade,
+  .plan_card_coming_soon {
+    width: 48%;
+    min-height: 370px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .plan_card,
+  .plan_card_downgrade,
+  .plan_card_coming_soon {
+    width: 100%;
+    min-height: 370px;
+    margin-bottom: 30px;
+  }
+}

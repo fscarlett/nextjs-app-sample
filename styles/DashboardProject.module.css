@@ -1,0 +1,140 @@
+.project {
+  margin: 0 0 30px;
+  padding: 6px;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.project_top_row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.project h4 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  flex: 2;
+}
+
+.project h4 a {
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.project h4 a:hover {
+  text-decoration: underline;
+}
+
+.project_actions {
+  text-decoration: none;
+  margin: 15px 20px 15px 10px;
+  width: auto;
+  height: auto;
+}
+
+.project_actions span {
+  font-size: 15px;
+  position: relative;
+  top: -11px;
+}
+
+.project_actions:hover span {
+  text-decoration: underline;
+}
+
+.date {
+  margin-right: 30px;
+  margin-left: 8px;
+}
+
+.project_dates_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 10px 15px;
+}
+
+.project_info_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px 10px;
+}
+
+.project_info_item {
+  margin: 0;
+  font-size: 17px;
+}
+
+.project_actions_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 15px 15px 0;
+  width: 100%;
+}
+
+.project_description {
+  padding: 10px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1291px) {
+  .project_description {
+    height: 65px;
+  }
+}
+
+@media (max-width: 767px) {
+  .project {
+    flex-direction: column;
+  }
+  .project_info_wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+  .project_actions_wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .project_actions span {
+    font-size: 18px;
+  }
+  .project h4 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex: 2;
+  }
+  .date {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project_dates_wrapper {
+    flex-direction: column;
+    padding: 10px 10px 15px;
+  }
+  .project_dates_wrapper div {
+    padding-bottom: 10px;
+  }
+}

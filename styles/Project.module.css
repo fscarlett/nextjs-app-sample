@@ -1,0 +1,185 @@
+.project {
+  position: relative;
+  padding-top: 75px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.project_navbar {
+  width: 260px;
+  height: 90vh;
+  overflow-y: scroll;
+  background-color: #030d2b;
+  padding: 5px;
+}
+
+.project h3 {
+  font-size: 25px;
+}
+
+.project p {
+  margin: 0;
+}
+
+.project_user_fullname {
+  padding-left: 20px;
+}
+
+.controls {
+  position: relative;
+  top: 10px;
+}
+
+.delete {
+  margin-left: 20px;
+  color: hotpink;
+}
+
+.back {
+  display: block;
+  margin-top: 40px;
+}
+
+.project_id {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.project_id h1 {
+  font-size: 24px;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.project_section_wrapper {
+  border: 1px solid #aaa;
+  padding: 10px;
+}
+
+.project .project_info {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.project .project_info_label {
+  font-size: 16px;
+  color: #999;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.input_group_nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.input_group_button {
+  cursor: pointer;
+  margin: 10px 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+  z-index: 100;
+  text-align: center;
+}
+
+.data_message {
+  background-color: #444;
+  padding: 10px;
+  margin-top: 40px;
+  border: 1px solid #ddd;
+}
+
+.logo {
+  margin: 0;
+}
+
+.summary {
+  width: 45%;
+  min-width: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.summary_column_1,
+.summary_column_2 {
+  padding: 6px 6px;
+  width: 50%;
+}
+
+.group_bar_card {
+  min-height: 300px;
+  background-color: #192138;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.group_bar_card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.set_card {
+  min-height: 200px;
+  background-color: #192138;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.set_card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.total_emissions_card {
+  min-height: 200px;
+  background-color: #192138;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.total_emissions_card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* was 1300 */
+@media screen and (max-width: 1500px) {
+  .project {
+    padding-top: 100px;
+  }
+
+  .project_navbar {
+    position: absolute;
+    width: 100%;
+    overflow-y: initial;
+    overflow-x: scroll;
+    background-color: #030d2b;
+    padding: 5px;
+  }
+  .input_group_nav {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .input_group_button {
+    margin: 10px 15px;
+  }
+}

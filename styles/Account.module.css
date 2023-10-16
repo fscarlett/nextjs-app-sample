@@ -1,0 +1,581 @@
+.img {
+  padding: 0;
+}
+.img p {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.infolabel {
+  /* color: #aaa; */
+  font-size: 18px;
+  /* text-transform: uppercase; */
+}
+
+.h2 {
+  font-size: 20px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.box {
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.accountitem {
+  padding: 15px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.infocontrols {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 0 25px;
+}
+
+.controls {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.controls span {
+  padding-right: 25px;
+}
+
+.account_page_centered {
+  width: 100%;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.account_section_copy {
+  line-height: 2;
+}
+
+/* ---------- account page ------------ */
+.account_page_container {
+  position: relative;
+  padding-top: 70px;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.account_page_header {
+  width: 100%;
+  padding: 10px;
+}
+
+.account_page_body {
+  width: 100%;
+  padding: 10px;
+}
+
+.account_page_body h2 {
+  margin: 20px 0;
+}
+
+.account_page_section {
+  padding: 20px 0;
+}
+
+.membership_status_box {
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  grid-column: 1 / span 2;
+}
+
+.membership_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.membership_status_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.membership_status_container p {
+  margin: 10px 0;
+}
+
+.status_controls {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 15px;
+}
+
+.status_controls span {
+  padding-right: 25px;
+}
+
+.addons_actions_wrapper {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.account_upgrade_link {
+  font-size: 16px;
+  position: relative;
+  top: -10px;
+  left: 5px;
+}
+
+.billing_portal_link {
+  padding-bottom: 5px;
+}
+
+.billing_portal_link span {
+  font-size: 15px;
+  position: relative;
+  top: -10px;
+  left: 5px;
+}
+
+.addon_button {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding-top: 5px;
+  padding-left: 0;
+  font-family: 'Work Sans', serif;
+  cursor: pointer;
+}
+
+.addon_button:hover {
+  color: #3bacb0;
+}
+
+.additional_reports_link {
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  padding-top: 3px;
+  padding-left: 15px;
+}
+
+.additional_reports_link:hover {
+  color: #3bacb0;
+}
+
+.whitelabel_link {
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  padding-top: 3px;
+  padding-left: 0px;
+}
+
+.whitelabel_link span {
+  padding-left: 15px;
+  position: relative;
+  top: -5px;
+}
+
+.membership_data_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.membership_data_box {
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 40px 15px;
+  margin: 10px 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.membership_data_heading {
+  font-size: 20px;
+  margin: 0;
+}
+
+.membership_data_number {
+  font-size: 36px;
+  margin: 30px 0 10px;
+}
+
+.membership_data_limit {
+  font-size: 18px;
+  margin: 0;
+}
+
+.dashboard_projects_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.account_links_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.dashboard_users_link {
+  padding-left: 30px;
+}
+
+.dashboard_users_link svg {
+  position: relative;
+  top: 9px;
+}
+
+@media screen and (max-width: 950px) {
+  .membership_container {
+    display: block;
+  }
+  .membership_data_container {
+    display: block;
+  }
+
+  .status_controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: flex-start;
+    height: 150px;
+    padding: 30px 0 15px;
+  }
+
+  .status_controls span {
+    padding-right: 25px;
+  }
+}
+
+/* ---------- profile page ------------ */
+.profile_page_container {
+  position: relative;
+  padding-top: 70px;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.profile_page_header {
+  width: 100%;
+  padding: 10px;
+}
+
+.profile_page_body {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.profile_page_body h2 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.profile_body_column_1 {
+  width: 50%;
+  padding: 10px 15px 10px 0;
+}
+
+.profile_body_column_2 {
+  width: 50%;
+  padding: 10px 0 10px 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile_page_body {
+    flex-direction: column;
+  }
+
+  .profile_body_column_1 {
+    width: 100%;
+    padding: 0;
+  }
+
+  .profile_body_column_2 {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.companyInfoWrapper {
+  position: relative;
+}
+
+button.companyInfoTrigger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-transform: none;
+  font-size: 18px;
+}
+
+button.companyInfoTrigger svg {
+  margin-right: 10px;
+}
+
+.modalCloseIcon {
+  position: absolute;
+  width: 20px;
+  cursor: pointer;
+  left: 90%;
+  top: 30px;
+  font-size: 22px;
+}
+
+.address_street {
+  padding-bottom: 10px;
+}
+
+.address_city {
+  padding-bottom: 10px;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.address_state {
+  padding-bottom: 10px;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.address_zip {
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.address_country {
+  padding-bottom: 5px;
+}
+
+.user_description {
+  line-height: 1.5;
+}
+
+/* ---------- billing page ------------ */
+.billing_page_container {
+  position: relative;
+  padding-top: 70px;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.billing_page_header {
+  width: 100%;
+  padding: 10px;
+}
+
+.billing_page_body {
+  width: 100%;
+  padding: 10px;
+}
+
+.billing_page_body h2 {
+  margin: 10px 0;
+}
+
+.billing_orders_wrapper {
+  padding: 20px 0;
+}
+
+/* ------------ my users page ------------  */
+
+.my_users_page_container {
+  position: relative;
+  padding-top: 70px;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.my_users_logo_wrapper {
+  position: relative;
+  left: -15px;
+  top: 20px;
+}
+
+.my_users_card {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #444444;
+  border-radius: 6px;
+}
+
+.my_users_card_body {
+  padding: 20px 0;
+}
+
+.my_users_buy_link {
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  color: #fdf4e7;
+  padding-top: 3px;
+  padding-left: 15px;
+}
+
+.my_users_buy_link:hover {
+  color: #3bacb0;
+}
+
+/* ---------- thank you pages ------------ */
+.thank_you_h1 {
+  margin-top: 50px;
+}
+
+/* ------------------------- thank you waiting modal ------------------------ */
+.thank_you_wait_modal {
+  background-color: #030d2b;
+  color: #fdf4e7;
+  width: 700px;
+  max-width: 90vw;
+  height: 700px;
+  max-height: 90vh;
+  border-radius: 6px;
+  padding: 20px 30px;
+  border: 1px solid #fdf4e7;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.thank_you_wait_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* ------------------------------ get certified ----------------------------- */
+.flyout_nav_link {
+  font-size: 17px;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flyout_nav_link span {
+  padding-left: 10px;
+}
+
+/* ---------------------------- coming soon page ---------------------------- */
+
+.coming_soon_container {
+  max-width: 700px;
+  margin: 120px auto;
+  padding: 30px 50px 100px;
+  /* background-color: #192138; */
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+  border-radius: 6px;
+}
+
+.coming_soon_header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.coming_soon_container h1 {
+  margin-bottom: 50px;
+  font-size: 40px;
+  padding-top: 25px;
+}
+
+.coming_soon_feature {
+  margin: 40px 0;
+  font-size: 18px;
+}
+
+.coming_soon_blurb {
+  margin: 50px 0 180px;
+  font-size: 24px;
+}
+
+.brand_image_wrapper {
+  position: relative;
+  left: -22px;
+}
+
+.coming_soon_link_wrapper {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 400px) {
+  .coming_soon_container {
+    margin: 120px auto;
+    padding: 30px 20px 50px;
+  }
+  .coming_soon_container h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+    padding-top: 25px;
+  }
+}

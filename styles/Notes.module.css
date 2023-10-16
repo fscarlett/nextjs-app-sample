@@ -1,0 +1,85 @@
+.project_notes_container {
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 767px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.project_notes_container h2 {
+  margin: 10px 0;
+}
+
+.project_notes_header {
+  width: 100%;
+  padding: 20px;
+}
+
+.project_notes_header h1 {
+  font-size: 40px;
+}
+
+.project_notes_body {
+  width: 100%;
+  padding: 20px;
+}
+
+.notes_submit_button {
+  background-color: #2d8186;
+  color: #fdf4e7;
+  display: block;
+  margin: 40px auto;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  height: 55px;
+  width: 100%;
+}
+
+.notes_submit_button:hover {
+  background-color: #303f9f;
+  color: #fdf4e7;
+  text-decoration: underline;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+.form label {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  height: 150px;
+  color: #ddd;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.form .textarea_label {
+  padding: 0;
+}
+
+.form input[type='submit']:hover {
+  background-color: #303f9f;
+  color: #fdf4e7;
+}
+
+.form a {
+  display: block;
+  margin-bottom: 40px;
+}

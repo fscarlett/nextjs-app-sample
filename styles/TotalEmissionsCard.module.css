@@ -1,0 +1,55 @@
+.total_emissions_card {
+  height: 200px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 9px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.total_emissions_card h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mini_summary_info_wrapper {
+  width: 35%;
+  padding-top: 20px;
+}
+
+.mini_summary_chart_wrapper {
+  height: 100%;
+  width: 50%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.mini_emissions_chart_container {
+  position: relative;
+  top: -35px;
+}
+
+.carbon_pounds_label {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.mini_summary_value {
+  font-size: 33px;
+  padding-top: 20px;
+}
+
+.chart_data_temp p {
+  font-size: 11px;
+  margin: 0;
+}

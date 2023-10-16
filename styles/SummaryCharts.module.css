@@ -1,0 +1,60 @@
+.amchart_wrapper {
+  height: 240px;
+}
+
+.summary_amchart_wrapper {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.amchart_root {
+  height: 240px;
+  height: 100%;
+  min-width: 155px;
+  width: 180px;
+}
+
+.summary_amchart_root {
+  height: 110%;
+  width: 416px;
+}
+
+.improve_amchart_root {
+  height: 500px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .summary_amchart_root {
+    height: 110%;
+    width: 100%;
+  }
+}
+
+/* improve project css chart */
+.outerCircleWrapper {
+  width: 395px;
+  height: 405px;
+}
+
+.innerCircleWrapper {
+  width: 400px;
+  height: 405px;
+  position: relative;
+  top: -400px;
+}
+
+.outerCircleLabel {
+  position: relative;
+  top: 30px;
+  left: 20px;
+  font-size: 20px;
+}
+
+.innerCircleLabel {
+  position: relative;
+  top: 65px;
+  left: 30px;
+  font-size: 20px;
+}

@@ -1,0 +1,595 @@
+/* card colors 
+#3f51b5
+#222d4c
+#192138
+
+ */
+
+.input_wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 92vw;
+}
+
+.inputs_inner_wrapper {
+  width: 55%;
+  padding: 0 10px 20px 10px;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.inputs_h2 {
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.inputs_inner_wrapper p {
+  padding: 5px;
+}
+
+.input_sets_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+
+.subcategory_wrapper h3 {
+  color: #eee;
+  font-size: 29px;
+  margin: 40px 5px 0;
+}
+
+.subcategory_wrapper h4 {
+  color: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.input_set {
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 33%;
+}
+
+@media screen and (max-width: 767px) {
+  .input_set {
+    width: 100%;
+  }
+}
+
+.input_set p {
+  margin-bottom: 10px;
+}
+
+.precalc_explain {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  border: 1px solid #222d4c;
+  background-color: #222d4c;
+  border-radius: 4px;
+}
+
+.group_bar_precalc_note {
+  font-size: 16px;
+}
+
+.input_set .input_main_row input {
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+.input_set .input_main_row select {
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #e5e5e5;
+  background-color: #030d2b;
+  border-color: #ccc;
+  border-radius: 4px;
+}
+
+.input_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.input_label_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.precalc_input_label_row {
+  display: flex;
+  flex-direction: row;
+  min-height: 60px;
+}
+
+.precalc_input_label_row label {
+  font-weight: bold;
+}
+
+.precalc_input_label_row label svg {
+  color: #9e9e9e;
+}
+
+.precalc_input_label_row span {
+  font-weight: bold;
+  margin-left: 5px;
+  position: relative;
+  top: -5px;
+}
+
+.input_main_row {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_label_row label {
+  font-weight: bold;
+}
+
+.input_label_row label svg {
+  color: #9e9e9e;
+}
+
+.input_label_row span {
+  font-weight: bold;
+  margin-left: 5px;
+  position: relative;
+  top: -5px;
+}
+
+.carbon_pounds_card,
+.carbon_percent_card {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 20px;
+  border-radius: 9px;
+  margin-top: 10px;
+}
+
+.carbon_pounds_card {
+  background-color: #222d4c;
+}
+
+.carbon_percent_card {
+  background-color: #192138;
+}
+
+.carbon_pounds_card p,
+.carbon_percent_card p {
+  margin: 0;
+}
+
+.carbon_pounds_card p:last-child,
+.carbon_percent_card p:last-child {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.subcategory_totals_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 98%;
+  margin: 0 auto;
+  padding: 10px 10px;
+  border-radius: 9px;
+  background-color: #3f51b5;
+}
+
+.precalc_color_bar {
+  height: 40px;
+}
+
+.subcategory_totals_card h4 {
+  margin: 0;
+  padding: 0 5px;
+  width: 33.3%;
+}
+
+.subcategory_totals_card p {
+  padding: 0;
+}
+
+.subcat_tot_pounds,
+.subcat_tot_percent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 33.3%;
+  padding: 3px 5px 5px 20px;
+}
+
+.subcat_tot_percent {
+  padding-left: 4.5%;
+}
+
+.subcat_tot_pounds p:last-child,
+.subcat_tot_percent p:last-child {
+  font-size: 22px;
+  font-weight: normal;
+  padding: 1px 0;
+}
+
+.subcat_tots_hardscape {
+  background-color: #a9a8ab;
+}
+
+.subcat_tots_grading {
+  background-color: #ee7c43;
+}
+
+.subcat_tots_drainage {
+  background-color: #205582;
+}
+
+.subcat_tots_irrigation {
+  background-color: #2f3dd6;
+}
+
+.subcat_tots_rain {
+  background-color: #5b92f6;
+}
+
+.subcat_tots_lighting {
+  background-color: #eea842;
+}
+
+.subcat_tots_water {
+  background-color: #0485a7;
+}
+
+.subcat_tots_plant {
+  background-color: #6f9844;
+}
+
+.subcat_tots_soils {
+  background-color: #5a3304;
+}
+
+.subcat_tots_transportation {
+  background-color: #6d649a;
+}
+
+.subcat_tots_deliveries {
+  background-color: #e26352;
+}
+
+.subcat_tots_equipment {
+  background-color: #ac2548;
+}
+
+.subcat_tots_decking {
+  background-color: burlywood;
+}
+
+.subcat_tots_pools {
+  background-color: aqua;
+}
+
+.subcat_tots_sequestration {
+  background-color: #4ba52d;
+}
+
+.subcat_tots_hardscape h4,
+.subcat_tots_hardscape p,
+.subcat_tots_lighting h4,
+.subcat_tots_lighting p,
+.subcat_tots_rain h4,
+.subcat_tots_rain p {
+  color: #111;
+}
+
+.buttonset {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  max-width: 300px;
+}
+
+.subcat_ul {
+  background-color: #192138;
+  padding: 20px 15px 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 120px;
+}
+
+.subcat_nav_button {
+  list-style-type: none;
+}
+
+.subcat_nav_button a {
+  border-radius: 50px;
+  margin: 0 10px 10px 0;
+}
+
+.summary_wrapper {
+  width: 45%;
+  min-width: 400px;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.summary {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.summary_column_1,
+.summary_column_2 {
+  padding: 6px 6px;
+}
+
+.summary_column_1 {
+  width: 40%;
+}
+
+.summary_column_2 {
+  width: 60%;
+}
+
+@media screen and (max-width: 767px) {
+  .summary {
+    flex-direction: column;
+  }
+  .summary_column_1 {
+    width: 100%;
+  }
+
+  .summary_column_2 {
+    width: 100%;
+  }
+}
+
+.group_bar_card {
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+  padding: 20px 15px;
+  margin-bottom: 15px;
+  border-radius: 9px;
+}
+
+.group_bar_card h2,
+.group_totals_card h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.group_totals_card {
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+  padding: 20px 15px;
+  margin-bottom: 15px;
+  border-radius: 9px;
+}
+
+.group_totals_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.group_barchart_value {
+  font-size: 33px;
+  padding-top: 5px;
+}
+
+.group_totals_label {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.group_pounds_wrapper {
+  padding-right: 5px;
+}
+
+/*  begin SET card styles -------------- */
+.set_card {
+  min-height: 270px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 9px;
+}
+
+.set_card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.set_card_years {
+  font-size: 33px;
+  padding-top: 40px;
+}
+
+.set_bar {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(216, 79, 38, 1) 0%,
+    rgba(208, 155, 63, 1) 33%,
+    rgba(107, 198, 126, 1) 66%,
+    rgba(8, 185, 208, 1) 100%
+  );
+  position: relative;
+  margin-top: 40px;
+  height: 16px;
+  border-radius: 20px;
+}
+
+.set_indicator {
+  width: 5px;
+  height: 40px;
+  top: -12px;
+  right: 50%;
+  position: absolute;
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.set_labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 25px;
+}
+
+/* ----- end SET card styles ------------  */
+
+.total_emissions_card {
+  min-height: 200px;
+  background-color: #192138;
+  border-radius: 9px;
+
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.total_emissions_card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.mini_summary_info_wrapper {
+  width: 45%;
+}
+
+.timer_icon {
+  padding-right: 10px;
+  position: relative;
+  top: 8px;
+  color: #c9e99c;
+}
+
+.time_saver {
+  color: #c9e99c;
+}
+
+.carbon_pounds_label {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.mini_summary_value {
+  font-size: 33px;
+  padding-top: 40px;
+}
+
+.subcat_bars_wrapper {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.global_co2_card {
+  min-height: 100px;
+  background-color: #192138;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 9px;
+}
+
+.global_co2_card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.growth_zone_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 200px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 9px;
+}
+
+.growth_zone_card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* small screens   */
+/*  was 1300  */
+@media screen and (max-width: 1500px) {
+  .input_wrapper {
+    flex-direction: column;
+    width: 96vw;
+    position: relative;
+    top: 120px;
+  }
+  .inputs_inner_wrapper {
+    width: 90%;
+    height: auto;
+  }
+  .summary_wrapper {
+    width: 90%;
+    height: auto;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .input_wrapper {
+    flex-direction: column;
+    width: 96vw;
+    position: relative;
+    top: 120px;
+  }
+  .inputs_inner_wrapper {
+    width: 100%;
+    height: auto;
+  }
+  .summary_wrapper {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px 100px;
+  }
+}

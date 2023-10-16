@@ -1,0 +1,22 @@
+.error {
+  text-align: center;
+  margin: 200px 0;
+  font-size: 20px;
+}
+
+.error h1 {
+  font-size: 40px;
+}
+
+.server_error_h1 {
+  font-size: 28px;
+}
+
+.brand_image_wrapper {
+  position: relative;
+  left: -22px;
+}
+
+.copy {
+  margin: 60px 0;
+}

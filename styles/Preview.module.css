@@ -1,0 +1,84 @@
+.report_preview_container {
+  position: relative;
+  padding-top: 70px;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.create_report_header {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.create_report_link {
+  padding: 30px;
+  font-size: 32px;
+}
+
+.export_report_link {
+  display: inline-block;
+  padding: 30px 0;
+  font-size: 24px;
+}
+
+.preview_image_wrapper {
+  margin-bottom: 20px;
+}
+
+.preview_image_wrapper h3 {
+  text-align: center;
+}
+
+/* chart exporting stuff */
+
+.preview_amchart_wrapper {
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.test_image_tag {
+  height: 400px;
+  overflow: hidden;
+}
+
+.report_pdf_wrapper {
+  padding: 50px 10px;
+}
+
+.create_report_p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.redirect_button {
+  padding: 10px;
+  border: #444 solid 1px;
+  background-color: #2d8186;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.redirect_button:hover {
+  background-color: #303f9f;
+}
+
+.report_show_download_stats_wrapper {
+  padding: 10px 0 10px;
+}
+
+.report_show_download_stats_wrapper p {
+  font-size: 20px;
+}

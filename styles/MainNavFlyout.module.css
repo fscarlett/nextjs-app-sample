@@ -1,0 +1,60 @@
+svg.menu_icon {
+  transform: rotateX(180deg) scaleY(1.4);
+}
+
+.flyout_nav {
+  position: relative;
+  z-index: 1000;
+}
+
+.flyout_nav li {
+  list-style-type: none;
+}
+
+.username {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.ul {
+  padding-left: 20px;
+}
+
+.ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.flyout_nav_link {
+  font-size: 17px;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flyout_nav_link span {
+  padding-left: 10px;
+}
+
+.flyout_nav_logout_button {
+  font-size: 17px;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.flyout_nav_logout_button:hover {
+  color: #477dcd;
+}
+
+.flyout_nav_logout_button span {
+  padding-left: 10px;
+}

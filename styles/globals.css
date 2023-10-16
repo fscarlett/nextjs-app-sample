@@ -1,0 +1,261 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300;400;500;700&display=swap'); */
+/* MUI already loads Roboto... */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  background-color: #030d2b;
+  color: #fdf4e7;
+}
+
+*:focus {
+  outline: 3px solid #3bacb0;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #3bacb0;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+input,
+textarea {
+  border: 1px solid #eee;
+  font-size: 18px;
+}
+
+label {
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.btn {
+  padding: 10px;
+  border: #444 solid 1px;
+  background-color: #2d8186;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #303f9f;
+  color: #222;
+}
+
+.subcatbar {
+  height: 10px;
+  width: 0;
+  background-color: #aaa;
+  border-radius: 10px;
+}
+
+.hardscapesubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #a9a8ab; */
+  background-image: linear-gradient(
+    to right,
+    rgba(169, 168, 171, 0.25),
+    #a9a8ab 85%
+  );
+  border-radius: 10px;
+}
+
+.gradingsubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #ee7c43; */
+  background-image: linear-gradient(
+    to right,
+    rgba(238, 124, 67, 0.25),
+    rgba(238, 124, 67, 1) 85%
+  );
+
+  border-radius: 10px;
+}
+
+.drainagesubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #205582; */
+  background-image: linear-gradient(
+    to right,
+    rgb(32, 85, 130, 0.25),
+    #205582 85%
+  );
+  border-radius: 10px;
+}
+
+.irrigationsubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #2f3dd6; */
+  background-image: linear-gradient(
+    to right,
+    rgb(47, 61, 214, 0.25),
+    #2f3dd6 85%
+  );
+  border-radius: 10px;
+}
+
+.rainsubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #5b92f6; */
+  background-image: linear-gradient(
+    to right,
+    rgb(91, 146, 246, 0.25),
+    #5b92f6 85%
+  );
+  border-radius: 10px;
+}
+
+.lightingsubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #eea842; */
+  background-image: linear-gradient(
+    to right,
+    rgb(238, 168, 66, 0.25),
+    #eea842 85%
+  );
+  border-radius: 10px;
+}
+
+.watersubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #0485a7; */
+  background-image: linear-gradient(
+    to right,
+    rgb(4, 133, 167, 0.25),
+    #0485a7 85%
+  );
+  border-radius: 10px;
+}
+
+.plantsubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #6f9844; */
+  background-image: linear-gradient(
+    to right,
+    rgb(111, 152, 68, 0.25),
+    #6f9844 85%
+  );
+  border-radius: 10px;
+}
+
+.soilssubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #5a3304; */
+  background-image: linear-gradient(
+    to right,
+    rgb(90, 51, 4, 0.25),
+    #5a3304 85%
+  );
+  border-radius: 10px;
+}
+
+.transportationsubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #6d649a; */
+  background-image: linear-gradient(
+    to right,
+    rgb(109, 100, 154, 0.25),
+    #6d649a 85%
+  );
+  border-radius: 10px;
+}
+
+.deliveriessubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #e26352; */
+  background-image: linear-gradient(
+    to right,
+    rgb(226, 99, 82, 0.25),
+    #e26352 85%
+  );
+  border-radius: 10px;
+}
+
+.equipmentsubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #ac2548; */
+  background-image: linear-gradient(
+    to right,
+    rgb(172, 37, 72, 0.25),
+    #ac2548 85%
+  );
+  border-radius: 10px;
+}
+
+.poolssubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #aaa; */
+  background-image: linear-gradient(to right, #eaeaea, #a9a8ab 85%);
+  border-radius: 10px;
+}
+
+.deckingsubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #aaa; */
+  background-image: linear-gradient(to right, #eaeaea, #a9a8ab 85%);
+  border-radius: 10px;
+}
+
+.sequestrationsubcatbar {
+  height: 10px;
+  width: 0;
+  /* background-color: #4ba52d; */
+  background-image: linear-gradient(
+    to right,
+    rgb(75, 165, 45, 0.25),
+    #4ba52d 85%
+  );
+  border-radius: 10px;
+}
+
+.MuiBox-root {
+  border-radius: 6px;
+  max-width: 98vw;
+}
+
+@media screen and (max-width: 767px) {
+  .MuiBox-root {
+    padding: 15px;
+  }
+}

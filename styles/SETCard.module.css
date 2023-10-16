@@ -1,0 +1,84 @@
+.set_card {
+  min-height: 285px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 9px;
+}
+
+.set_card_summary {
+  height: 260px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 9px;
+}
+
+.set_card_h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h2.set_card_h2_summary {
+  margin: 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.set_card_years {
+  font-size: 33px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.set_card_text {
+  margin: 0;
+}
+
+.set_bar {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    #d84f26 0%,
+    rgba(208, 155, 63, 1) 70%,
+    rgba(107, 198, 126, 1) 85%,
+    #08b9d0 100%
+  );
+  position: relative;
+  margin-top: 40px;
+  height: 16px;
+  border-radius: 20px;
+}
+
+.set_indicator {
+  width: 5px;
+  height: 40px;
+  top: -12px;
+  right: 50%;
+  position: absolute;
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.set_labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 25px;
+}
+
+.set_label_50 {
+  position: relative;
+  left: -10px;
+}

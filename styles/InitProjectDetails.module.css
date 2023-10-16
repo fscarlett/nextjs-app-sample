@@ -1,0 +1,258 @@
+.details_page_container {
+  position: relative;
+  padding-top: 70px;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.details_page_container h2 {
+  margin: 10px 0;
+}
+
+.details_page_header {
+  width: 100%;
+  padding: 20px;
+}
+
+.details_page_body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.details_page_body form {
+  width: 100%;
+  color: #fff;
+}
+
+.details_page_body input {
+  color: #fff;
+  border-color: #fff;
+}
+
+.details_page_body textarea {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.details_global_section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.details_page_column1__wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.set_wrapper {
+  width: 100%;
+  min-height: 210px;
+  background-color: #192138;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.details_page_column2__wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+/* =====================  all below from project page ===========  */
+
+.project_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 130px;
+  position: fixed;
+  top: 0;
+  background-color: #030d2b;
+  padding: 0;
+  opacity: 0.9;
+}
+
+.project_navbar {
+  background-color: #030d2b;
+  width: 100px;
+  padding: 5px;
+}
+
+.project h3 {
+  font-size: 25px;
+}
+
+.project p {
+  margin: 0;
+}
+
+.controls {
+  position: relative;
+  top: 10px;
+}
+
+.delete {
+  margin-left: 20px;
+  color: hotpink;
+}
+
+.back {
+  display: block;
+  margin-top: 40px;
+}
+
+.project_id {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.project_id h1 {
+  font-size: 24px;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.project_section_wrapper {
+  border: 1px solid #aaa;
+  padding: 10px;
+}
+
+.data_message {
+  background-color: #444;
+  padding: 10px;
+  margin-top: 40px;
+  border: 1px solid #ddd;
+}
+
+/* this is the actual styles for edit details :P  */
+
+.edit_form_columns_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.edit_form_column {
+  width: 49%;
+}
+
+@media screen and (max-width: 1100px) {
+  .edit_form_column {
+    width: 100%;
+  }
+}
+
+.edit_input_set_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.edit_input_half_width {
+  width: 50%;
+  padding: 10px;
+}
+
+.edit_input_full_width {
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .edit_input_half_width {
+    width: 100%;
+  }
+}
+
+.edit_input_half_width input {
+  margin-bottom: 10px;
+}
+
+.edit_input_full_width input {
+  margin-bottom: 10px;
+}
+
+.edit_project_image_wrapper {
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.edit_image_label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.project_image_placeholder_wrapper {
+  position: relative;
+  width: 180px;
+}
+
+.project_image_placeholder {
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  background-color: #999;
+}
+
+.project_image_placeholder_icon {
+  position: absolute;
+  left: 80px;
+  top: 30px;
+  background: #888;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.edit_project_logo_wrapper {
+  width: 100%;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.edit_logo_label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo {
+  margin: 0;
+}

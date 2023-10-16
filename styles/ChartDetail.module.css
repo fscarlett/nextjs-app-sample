@@ -1,0 +1,394 @@
+.detail_page_container {
+  position: relative;
+  padding-top: 70px;
+  min-height: 90vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.chart_detail_h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.group_detail_heading_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 60px 0;
+}
+
+.group_detail_logo_wrapper {
+  padding-right: 50px;
+  min-width: 60px;
+}
+
+.summary_page_container h2 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.summary_header {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.set_wrapper {
+  width: 100%;
+  min-height: 210px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.summary_chart_wrapper {
+  padding: 3px;
+  min-height: 270px;
+}
+
+.detail_page_total_pounds {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.detail_page_chart_data_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.detail_page_chart_data_wrapper p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.detail_page_data_column {
+  width: 33%;
+  padding: 10px;
+}
+
+.detail_page_group_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 30px;
+}
+
+.detail_page_group_dealie {
+  height: 30px;
+  width: 10px;
+  border-radius: 10px;
+  background-color: #add;
+  margin-right: 8px;
+}
+
+.hardscape_color {
+  background-color: #a9a8ab;
+}
+
+.grading_color {
+  background-color: #ee7c43;
+}
+
+.drainage_color {
+  background-color: #205582;
+}
+
+.irrigation_color {
+  background-color: #2f3dd6;
+}
+
+.rain_color {
+  background-color: #5b92f6;
+}
+
+.lighting_color {
+  background-color: #eea842;
+}
+
+.water_color {
+  background-color: #0485a7;
+}
+
+.plants_color {
+  background-color: #6f9844;
+}
+
+.soils_color {
+  background-color: #5a3304;
+}
+
+.transportation_color {
+  background-color: #6d649a;
+}
+
+.deliveries_color {
+  background-color: #e26352;
+}
+
+.equipment_color {
+  background-color: #ac2548;
+}
+
+.shrubs_color {
+  background-color: #ccd7bc;
+}
+
+.grasses_color {
+  background-color: #69964d;
+}
+
+.turf_color {
+  background-color: #c9e99c;
+}
+
+.trees_color {
+  background-color: #5a703b;
+}
+
+.mulch_color {
+  background-color: #645a4d;
+}
+
+.compost_color {
+  background-color: #d1b79b;
+}
+
+.detail_page_group_data {
+  margin: 0 0 15px;
+}
+
+.detail_page_group_data p {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .detail_page_data_column {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.summary_barcharts_section {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  min-height: 200px;
+  padding: 20px 0;
+}
+
+.summary_barcharts_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* =====================  all below from project page ===========  */
+
+.project_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 130px;
+  position: fixed;
+  top: 0;
+  background-color: #030d2b;
+  padding: 0;
+  opacity: 0.9;
+}
+
+.project_navbar {
+  background-color: #030d2b;
+  width: 100px;
+  padding: 5px;
+}
+
+.project h3 {
+  font-size: 25px;
+}
+
+.project p {
+  margin: 0;
+}
+
+.controls {
+  position: relative;
+  top: 10px;
+}
+
+.delete {
+  margin-left: 20px;
+  color: hotpink;
+}
+
+.back {
+  display: block;
+  margin-top: 40px;
+}
+
+.project_id {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.project_id h1 {
+  font-size: 24px;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.project_section_wrapper {
+  border: 1px solid #aaa;
+  padding: 10px;
+}
+
+.data_message {
+  background-color: #444;
+  padding: 10px;
+  margin-top: 40px;
+  border: 1px solid #ddd;
+}
+
+.logo {
+  margin: 0;
+}
+
+.group_bar_card {
+  min-height: 300px;
+  background-color: #192138;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.group_bar_card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.set_card {
+  min-height: 200px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.set_card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.total_emissions_card {
+  min-height: 200px;
+  background-color: #192138;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.total_emissions_card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.amchart_root {
+  height: 300px;
+}
+
+/* ========  from inputs section for improve your project ========= */
+.input_sets_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+
+.subcategory_wrapper h3 {
+  color: #eee;
+  font-size: 29px;
+  margin: 40px 5px 0;
+}
+
+.subcategory_wrapper h4 {
+  color: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.input_set {
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+
+/* @media screen and (max-width: 767px) {
+  .input_set {
+    width: 100%;
+  }
+} */
+
+.input_set p {
+  margin-bottom: 10px;
+}
+
+.input_set .input_main_row input {
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #fff;
+  border: 1px solid #e5e5e5;
+}
+
+.input_set .input_main_row select {
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #e5e5e5;
+  background-color: #030d2b;
+  border-color: #ccc;
+}
+
+.input_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.input_label_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.input_main_row {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_label_row label {
+  font-weight: bold;
+}
+
+.input_label_row span {
+  font-weight: bold;
+  margin-left: 5px;
+  position: relative;
+  top: -5px;
+}

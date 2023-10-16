@@ -1,0 +1,359 @@
+.create_report_container {
+  position: relative;
+  padding: 70px 0;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.create_report_1_container {
+  position: relative;
+  padding: 70px 0;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.create_report_1_container h2 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.create_report_header {
+  width: 100%;
+  padding: 20px;
+}
+
+.create_report_header h1 {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .create_report_header h1 {
+    font-size: 32px;
+  }
+}
+
+.project_charts_section {
+  width: 100%;
+}
+
+.project_charts_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.project_charts_column {
+  width: 33%;
+  padding: 10px;
+  min-height: 300px;
+  min-width: 400px;
+}
+
+.input_group_form_control {
+  padding-top: 25px;
+}
+
+.checkbox_label_text {
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+
+.next_button_section {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.next_button {
+  display: inline-block;
+  background-color: #2d8186;
+  padding: 8px 40px 16px;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 700px;
+  text-decoration: none;
+}
+
+.next_button_5 {
+  display: inline-block;
+  background-color: #2d8186;
+  padding: 16px 40px 16px;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 700px;
+  text-decoration: none;
+}
+
+.next_button:hover,
+.next_button_5:hover {
+  background-color: #303f9f;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.next_button svg {
+  position: relative;
+  top: 7px;
+  left: 10px;
+}
+
+.project_charts_column50 {
+  width: 50%;
+  padding: 10px;
+  min-height: 300px;
+  min-width: 400px;
+}
+
+.report1_example_page_wrapper {
+  height: 60vh;
+  max-height: 550px;
+  width: 85vw;
+  max-width: 400px;
+  margin: 40px 0;
+}
+
+.deselect_all {
+  position: relative;
+  top: 25px;
+  cursor: pointer;
+  color: #2d8186;
+}
+
+.deselect_all:hover {
+  text-decoration: underline;
+}
+
+/* ----   step 2 page ------ */
+.create_report_2_container {
+  position: relative;
+  padding: 70px 0;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.create_report_2_container h2 {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.project_details_section {
+  width: 100%;
+  padding: 20px;
+}
+
+.project_details_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 200px;
+}
+
+.project_2_charts_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.project_charts_column33 {
+  width: 33%;
+  padding: 10px;
+  min-height: 300px;
+  min-width: 400px;
+}
+
+.report2_example_page_wrapper {
+  margin: 50px 0 10px;
+  padding: 0 20px 0 0;
+}
+
+@media screen and (max-width: 1330px) {
+  .project_details_section {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .project_2_charts_wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .project_charts_column33 {
+    width: auto;
+    padding: 10px;
+    min-height: initial;
+    min-width: initial;
+  }
+
+  .report2_example_page_wrapper {
+    margin: 50px 0 10px;
+    padding: 0 20px 0 0;
+  }
+}
+
+/* -------- step 3 page ------- */
+.create_report_3_container {
+  position: relative;
+  padding: 70px 0;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.create_report_3_container h2 {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.project_preview_section {
+  width: 100%;
+  padding: 20px;
+}
+
+.project_export_section {
+  width: 100%;
+  padding: 20px;
+}
+
+.project_export_settings {
+  margin-top: 60px;
+}
+
+.project_export_settings legend {
+  color: #fdf4e7;
+}
+
+.preview_button_section {
+  width: 100%;
+  padding: 50px 20px 70px;
+  text-align: center;
+}
+
+.export_button_section {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* -------- step 4 page ------- */
+.create_report_4_container {
+  position: relative;
+  padding: 70px 0;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.create_report_4_container h2 {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.report_4_details_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.report_4_radio_wrapper {
+  padding-bottom: 40px;
+}
+
+.examples_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.examples_column {
+  width: 50%;
+  min-height: 300px;
+  min-width: 400px;
+}
+
+.report4_example_page_wrapper {
+  margin: 50px 0 10px;
+  padding: 0 20px 0 0;
+}
+
+@media screen and (max-width: 900px) {
+  .examples_wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .examples_column {
+    width: 100%;
+    min-height: initial;
+    min-width: initial;
+  }
+
+  .report4_example_page_wrapper {
+    margin: 50px 0 10px;
+    padding: 0;
+  }
+}
+
+/* -------- step 5 page ------- */
+
+.create_report_5_container {
+  position: relative;
+  padding: 70px 0;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.create_report_p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}

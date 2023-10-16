@@ -1,0 +1,39 @@
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 13px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.card h3 {
+  padding: 13px;
+  margin: 0;
+}
+
+.card:hover {
+  background-color: #adf;
+}
+
+.info {
+  flex: 2;
+}
+
+@media (max-width: 600px) {
+  .event {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info {
+    margin-bottom: 20px;
+  }
+}

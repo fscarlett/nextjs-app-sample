@@ -1,0 +1,226 @@
+.dash {
+  position: relative;
+  padding-top: 60px;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.dash h1 {
+  padding: 0 9px;
+  margin: 20px 0 0;
+  font-size: 34px;
+}
+
+.dash h2 {
+  font-size: 21px;
+  color: #eee;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.dash h2.inner_h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.dash h3 {
+  font-size: 34px;
+}
+
+.dashboard_header {
+  padding: 10px;
+}
+
+.dashboard_header_discount {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.dashboard_body_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+body .dash div[role='radiogroup'] {
+  flex-direction: row;
+}
+
+body .dash label[id='billing-period-radio-buttons-group'] {
+  color: #fdf4e7;
+  font-weight: bold;
+}
+
+.plan_billing_period_wrapper {
+  padding: 30px 10px;
+  margin-left: 15px;
+}
+
+.plans_wrapper {
+  width: 100%;
+  padding: 0 50px 0 20px;
+}
+
+.plans_wrapper_discount {
+  width: 100%;
+}
+
+.plans_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.plancards_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.plan_price {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.plan_feature {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.dashboard_button {
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 17px;
+  padding: 12px 40px;
+  background-color: #2d8186;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+}
+
+.dashboard_button:hover {
+  background-color: #303f9f;
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1150px) {
+  .dashboard_body_wrapper {
+    flex-direction: column;
+  }
+  .plans_wrapper {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .plancards_wrapper {
+    align-items: flex-start;
+    padding: 40px 10px;
+  }
+}
+
+.box {
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 15px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+}
+
+/* ---------- added from plan components for add-ons pages ----------- */
+.plan_select_button_section {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.plan_select_button {
+  display: inline-block;
+  background-color: #2d8186;
+  padding: 12px 10px 12px;
+  color: #fdf4e7;
+  border-radius: 6px;
+  font-size: 17px;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 300px;
+  text-decoration: none;
+}
+
+.plan_select_button:hover {
+  background-color: #303f9f;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.addons_container {
+  position: relative;
+  padding-top: 60px;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.addons_container h1 {
+  padding: 0 9px;
+  margin: 20px 0 0;
+  font-size: 34px;
+}
+
+.addons_message {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.addons_container h2 {
+  font-size: 21px;
+  color: #fdf4e7;
+  font-weight: bold;
+
+  margin: 15px 0;
+}
+
+h2.addons_thankyou_h2 {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.addons_container h2.inner_h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.addons_container h3 {
+  font-size: 34px;
+}

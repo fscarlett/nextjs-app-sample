@@ -1,0 +1,88 @@
+.summary_chart_wrapper {
+  position: relative;
+  top: 46px;
+  left: 20px;
+  padding: 2px;
+}
+
+.big_summary_chart_wrapper {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.donut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+}
+
+.hole {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  background: #121833;
+}
+
+.improve_donut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+}
+
+.improve_hole {
+  width: 185px;
+  height: 185px;
+  border-radius: 50%;
+  background: #121833;
+}
+
+.placeholder_donut_wrapper {
+  position: relative;
+  top: 56px;
+  left: 22px;
+}
+
+.placeholder_donut_circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  background-color: #121833;
+  border-radius: 50%;
+  border: 1px #fff dashed;
+}
+
+.placeholder_hole {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  background: #121833;
+  border: 1px #fff dashed;
+}
+
+.big_donut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 255px;
+  height: 255px;
+  border-radius: 50%;
+}
+
+.big_hole {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: #121833;
+}

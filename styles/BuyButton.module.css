@@ -1,0 +1,17 @@
+.buy {
+  background-color: #24d;
+  color: #fff;
+  padding: 15px;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 1.6rem;
+}
+
+.buy:hover {
+  background-color: #35f;
+}

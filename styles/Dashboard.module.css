@@ -1,0 +1,372 @@
+.dash {
+  position: relative;
+  padding-top: 60px;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.dash h1 {
+  padding: 0 9px;
+  margin: 50px 0 10px;
+  font-style: 34px;
+}
+
+.dash h2 {
+  font-size: 21px;
+  color: #eee;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.dash h2.inner_h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.dash h3 {
+  font-size: 25px;
+  color: deepskyblue;
+}
+
+.dashboard_header {
+  padding: 10px;
+}
+
+.dashboard_body_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.dashboard_projects_wrapper {
+  width: 50%;
+  padding: 0 50px 50px 20px;
+}
+
+.dashboard_projects_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dashboard_projects_links_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.dashboard_link {
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.dashboard_link:hover {
+  text-decoration: underline;
+}
+
+.dashboard_link svg {
+  position: relative;
+  top: 9px;
+}
+
+.dashboard_create_link {
+  padding: 0 20px 3px 0;
+}
+
+.dashboard_create_link svg {
+  position: relative;
+  top: 8px;
+  left: -3px;
+}
+
+.dashboard_view_link {
+  padding: 0 0 3px 0;
+}
+
+.dashboard_view_link svg {
+  position: relative;
+  top: 8px;
+  left: 0;
+}
+
+.dashboard_account_wrapper {
+  width: 50%;
+  padding: 0 50px 0 20px;
+}
+
+.dashboard_button {
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 17px;
+  padding: 12px 40px;
+  background-color: #2d8186;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+}
+
+.dashboard_button:hover {
+  background-color: #303f9f;
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1300px) {
+  .dashboard_body_wrapper {
+    flex-direction: column;
+  }
+  .dashboard_projects_wrapper {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .dashboard_account_wrapper {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.box {
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 15px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    #192138
+  );
+}
+
+.membership_status_box {
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 15px;
+  background-image: linear-gradient(
+    to top right,
+    rgba(25, 33, 56, 0.25),
+    60%,
+    rgba(44, 126, 131, 0.6)
+  );
+}
+
+/* ---- membership section ----- */
+
+.membership_data_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .membership_data_container {
+    gap: 15px;
+  }
+}
+
+.dashboard_membership_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.dashboard_stripe_portal_wrapper {
+  padding: 16px 20px 16px 0;
+}
+
+.dashboard_stripe_portal_wrapper a svg {
+  position: relative;
+  top: 8px;
+  left: 0;
+}
+
+.membership_label {
+  font-weight: bold;
+}
+
+.dashboard_membership_link {
+  padding-bottom: 16px;
+}
+
+.dashboard_membership_link a svg {
+  position: relative;
+  top: 8px;
+  left: 0;
+}
+
+.membership_box_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.membership_box_wrapper .box:first-child {
+  margin-right: 15px;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .membership_box_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .membership_box_wrapper .box:first-child {
+    margin-right: 0;
+  }
+}
+
+.upgrade {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 60px 0 5px;
+  position: relative;
+  bottom: 0;
+}
+
+.upgrade_link {
+  text-decoration: none;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+
+.upgrade span {
+  padding-right: 25px;
+}
+
+.addon_link_wrapper {
+  padding: 0 20px 15px 0;
+}
+
+.addon_link_wrapper form {
+  padding-left: 15px;
+}
+
+.addon_link {
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  padding-top: 3px;
+  padding-left: 15px;
+}
+
+.additional_reports_link {
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  padding-top: 3px;
+  padding-left: 10px;
+}
+
+.addon_button {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding-top: 5px;
+  padding-left: 0;
+  font-family: 'Work Sans', serif;
+  cursor: pointer;
+}
+
+.addon_link svg {
+  position: relative;
+  top: 7px;
+}
+
+.addon_link span {
+  padding-left: 10px;
+}
+
+.membership_data_box {
+  border: 1px solid #2d8186;
+  border-radius: 5px;
+  padding: 40px 15px;
+  margin: 10px 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.membership_data_heading {
+  font-size: 20px;
+  margin: 0;
+}
+
+.membership_data_number {
+  font-size: 36px;
+  margin: 30px 0 10px;
+}
+
+.membership_data_limit {
+  font-size: 18px;
+  margin: 0;
+}
+
+.billing_section_wrapper {
+  margin-bottom: 20px;
+}
+
+.users_section_wrapper {
+  margin-top: 20px;
+}
+
+.dashboard_users_link {
+  padding-left: 30px;
+}
+
+.dashboard_users_link svg {
+  position: relative;
+  top: 9px;
+}
+
+/*  =====    only in My Projects page  /projects  */
+
+.projects_list_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+.allprojects_project {
+  margin-right: 25px;
+  width: 48%;
+}
+
+@media screen and (max-width: 1290px) {
+  .allprojects_project {
+    margin-right: 0;
+    width: 100%;
+  }
+}
